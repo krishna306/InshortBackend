@@ -4,7 +4,7 @@ const NewsArticle = require("../models/NewsArticle");
 
 //get news by category
 
-router.get("fetchnewsbycategory/:category", async (req, res) => {
+router.get("/fetchnewsbycategory/:category", async (req, res) => {
   
   try {
     const {category} = req.params;
